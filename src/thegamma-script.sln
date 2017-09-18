@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "thegamma", "thegamma\thegamma.fsproj", "{AE8310C8-1F2B-4F9C-83F6-5D188B7517B2}"
 EndProject
@@ -29,6 +29,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "thegamma-tests", "..\tests\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "thegamma-console", "thegamma-console\thegamma-console.fsproj", "{1C3AB775-AB10-428E-BFEB-B42CCFD28130}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "thegamma-wpf", "thegamma-wpf\thegamma-wpf.fsproj", "{296E48D3-B5C5-422E-9F4A-4F3ED355CDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitch", "pitch\Pitch.csproj", "{FFB8FD10-74FD-4B9D-AA83-5DE0B266FE59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{1C3AB775-AB10-428E-BFEB-B42CCFD28130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C3AB775-AB10-428E-BFEB-B42CCFD28130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C3AB775-AB10-428E-BFEB-B42CCFD28130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{296E48D3-B5C5-422E-9F4A-4F3ED355CDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296E48D3-B5C5-422E-9F4A-4F3ED355CDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296E48D3-B5C5-422E-9F4A-4F3ED355CDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296E48D3-B5C5-422E-9F4A-4F3ED355CDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB8FD10-74FD-4B9D-AA83-5DE0B266FE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB8FD10-74FD-4B9D-AA83-5DE0B266FE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB8FD10-74FD-4B9D-AA83-5DE0B266FE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB8FD10-74FD-4B9D-AA83-5DE0B266FE59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
